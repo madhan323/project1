@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./DiveDeeper.css";
+import "./Divedeeper.css";
 
 
 function DiveDeeper() {

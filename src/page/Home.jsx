@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import SectionBanner from "../components/SectionBanner";
 import Welcome from "../components/Welcome";
 import Carousel from "../components/Carousel";
-import Divedeeper from "../components/Divedeeper";
+import DiveDeeper from "../components/Divedeeper";
 import Zen from "../components/Zen";
 
 
@@ -15,7 +15,7 @@ function Home() {
     <SectionBanner />
       <Carousel />
        <Welcome />
-       <Divedeeper />
+       <DiveDeeper />
        <Zen />
       <Add />
      
