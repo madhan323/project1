@@ -1,0 +1,101 @@
+.initiated-wrapper {
+  font-family: "Georgia", serif;
+}
+
+/* ===== Top Purple Section ===== */
+.zen-section {
+  background-color: #b399c8;
+  padding: 40px,60px;
+  text-align: center;
+  max-width: 1000px;   /* controls width */
+  margin: 40px auto;   /* centers it */
+  border-radius: 4px;
+}
+
+.zen-section h1 {
+  color: green;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.zen-section p {
+  color: black;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+/* ===== Location Section ===== */
+.location-section {
+  background-color: #f2f2f2;
+  padding: 50px 40px;
+  text-align: center;
+}
+
+.location-section h1 {
+  color: green;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+/* Card Layout */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+/* Individual Card */
+.card {
+  width: 350px;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+/* Bottom Rounded Content */
+.card-content {
+  background-color: #e6c79c;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  position: absolute;
+  bottom: -40px;
+  left: 20px;
+  right: 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  margin-top:0cap;
+}
+
+.card-content h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.card-content p {
+  font-size: 15px;
+}
+.learn-btn {
+  background-color: #f68b1f;      /* orange */
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 40px;
+  border-radius: 40px;            /* fully rounded */
+  border: 3px solid #2d5f2f;      /* green border */
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0, 0, 255, 0.3); /* blue glow shadow */
+  transition: 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Hover Effect */
+.learn-btn:hover {
+  background-color: #ff9f2e;
+  transform: scale(1.05);
+}

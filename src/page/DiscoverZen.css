@@ -1,0 +1,28 @@
+.dream-container {
+  background-color: #b395b8; /* light purple */
+  padding: 60px 120px;
+}
+
+.dream-title {
+  text-align: center;
+  color: green;
+  font-size: 36px;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+}
+
+.dream-content p {
+  color: #111;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.dream-bottom-title {
+  text-align: center;
+  color: green;
+  font-size: 30px;
+  letter-spacing: 8px;
+  margin-top: 50px;
+}

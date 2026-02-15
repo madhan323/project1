@@ -1,0 +1,55 @@
+/* Page Background */
+.zen-container {
+  min-height: 100vh;
+  background-color: #d9d9d9;
+  text-align: center;
+  padding-top: 40px;
+  font-family: Georgia, serif;
+}
+
+/* Logo */
+.top-logo img {
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+/* Orange Rounded Box */
+.zen-box {
+  width: 65%;
+  margin: 0 auto;
+  background-color: #f7941d;
+  padding: 70px 0;
+  border-radius: 45px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Each Item */
+.zen-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+}
+
+/* Icons */
+.zen-icon {
+  font-size: 50px;
+}
+
+/* Text */
+.zen-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
+
+/* Hover Effect */
+.zen-item:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}

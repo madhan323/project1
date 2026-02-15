@@ -1,0 +1,101 @@
+/* ===== PAGE BACKGROUND ===== */
+.zen-page {
+  background-color: #8fb082;
+  min-height: 100vh;
+  font-family: Georgia, serif;
+  overflow-x: hidden;
+}
+
+/* ===== HERO SECTION ===== */
+.zen-hero {
+  position: relative;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* ===== LAYERED WAVES ===== */
+.wave {
+  position: absolute;
+  width: 140%;
+  height: 320px;
+  left: -20%;
+  border-bottom-left-radius: 60% 100%;
+  border-bottom-right-radius: 60% 100%;
+}
+
+.wave1 {
+  background: #7b3ea5;
+  top: 0;
+  z-index: 1;
+}
+
+.wave2 {
+  background: #9157b5;
+  top: 30px;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+.wave3 {
+  background: #a870c8;
+  top: 60px;
+  opacity: 0.7;
+  z-index: 3;
+}
+
+/* ===== TEXT CONTENT ===== */
+.hero-content {
+  position: relative;
+  z-index: 5;
+  max-width: 900px;
+  padding: 0 20px;
+  margin-top: 40px;
+}
+
+.hero-content h1 {
+  letter-spacing: 6px;
+  font-size: 34px;
+  color: #204020;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #2f2f2f;
+}
+
+/* ===== CARDS SECTION ===== */
+.zen-cards {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  flex-wrap: wrap;
+  padding: 80px 20px 120px;
+}
+
+/* ===== CARD ===== */
+.zen-card {
+  width: 280px;
+  height: 420px;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+  background: white;
+}
+
+.zen-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Hover */
+.zen-card:hover {
+  transform: translateY(-12px);
+}
