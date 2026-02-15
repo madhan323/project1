@@ -1,6 +1,6 @@
 /* ===== PAGE BACKGROUND ===== */
 .zen-page {
-  background-color: #8fb082;
+  background-color: #d1e4c9;
   min-height: 100vh;
   font-family: Georgia, serif;
   overflow-x: hidden;
@@ -20,6 +20,7 @@
 /* ===== LAYERED WAVES ===== */
 .wave {
   position: absolute;
+  background-color: #9157b5;
   width: 140%;
   height: 320px;
   left: -20%;

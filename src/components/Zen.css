@@ -1,7 +1,7 @@
 /* Page Background */
 .zen-container {
   min-height: 100vh;
-  background-color: #d9d9d9;
+  background-color: #f6f2f2;
   text-align: center;
   padding-top: 40px;
   font-family: Georgia, serif;
@@ -44,7 +44,7 @@
 .zen-text {
   font-size: 30px;
   font-weight: bold;
-  color: white;
+  color: rgb(232, 226, 226);
   text-decoration: underline;
 }
 

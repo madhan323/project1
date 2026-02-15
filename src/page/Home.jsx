@@ -6,6 +6,7 @@ import Welcome from "../components/Welcome";
 import Carousel from "../components/Carousel";
 import DiveDeeper from "../components/Divedeeper";
 import Zen from "../components/Zen";
+import Initiated from "../components/Initiated";
 
 
 
@@ -18,6 +19,8 @@ function Home() {
        <DiveDeeper />
        <Zen />
       <Add />
+      
+        <Initiated />
      
       
       
