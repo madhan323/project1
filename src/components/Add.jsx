@@ -1,8 +1,11 @@
 import "./Add.css";
+import Carousel from "./Carousel";
 
 function Add() {
   return (
     <div className="initiated-wrapper">
+
+      <Carousel />
       
       {/* Top Section */}
       <div className="zen-section">

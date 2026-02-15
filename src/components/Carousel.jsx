@@ -13,19 +13,19 @@ function Carousel() {
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
-      autoplay={{ delay: 3000 }}
+      autoplay={{ delay: 10000 }}
       loop={true}
     >
       <SwiperSlide>
-        <img src="https://picsum.photos/800/400?1" alt="" />
+        <img style={{width: "100%", objectFit: "cover"}} src="https://picsum.photos/800/400?1" alt="" />
       </SwiperSlide>
 
       <SwiperSlide>
-        <img src="https://picsum.photos/800/400?2" alt="" />
+        <img style={{width: "100%", objectFit: "cover"}} src="https://picsum.photos/800/400?2" alt="" />
       </SwiperSlide>
 
       <SwiperSlide>
-        <img src="https://picsum.photos/800/400?3" alt="" />
+        <img style={{width: "100%", objectFit: "cover"}} src="https://picsum.photos/800/400?3" alt="" />
       </SwiperSlide>
 
     </Swiper>
